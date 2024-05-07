@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Expressjs Authentication REST APIs with JWT Token
 
 ## Project technologies/tools
@@ -87,3 +88,6 @@ nodemon app.js
 
 ### Nodemon
 - See [Nodemon](https://nodemon.io/).
+=======
+# auth-node
+>>>>>>> 6e77c4b6f7788ed69d93d8c5b54ca4ed894e8733
