@@ -5,13 +5,13 @@ const User = {
     return db
       .promise()
       .execute(
-        "INSERT INTO users (username, email, password) VALUES (?, ?, ?)",
+        "INSERT INTO user (username, email, password) VALUES (?, ?, ?)",
         [user.username, user.email, user.password]
       );
   },
 
   findByEmail: (email) => {
-    return db.promise().query("SELECT * FROM users WHERE email = ?", [email]);
+    return db.promise().query("SELECT * FROM user WHERE email = ?", [email]);
   },
 };
 

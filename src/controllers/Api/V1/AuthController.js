@@ -2,6 +2,8 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const User = require("../../../models/User");
 const { validationResult } = require("express-validator");
+require('dotenv').config();
+
 
 const authController = {
   register: async (req, res) => {
@@ -58,6 +60,7 @@ const authController = {
           expiresIn: "1h", // Adjust the expiration time as needed
         }
       );
+      
 
       res.status(200).json({ token: token });
     } catch (error) {
