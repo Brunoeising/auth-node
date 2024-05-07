@@ -15,6 +15,11 @@ app.use(cors()); // Allow all origins (not recommended for production)
 //routes
 app.use('/v1', apiRoutes);
 
+// Rota raiz
+app.get("/", (req, res) => {
+  res.send("Bem-vindo ao meu servidor!");
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
