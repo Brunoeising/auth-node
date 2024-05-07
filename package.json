@@ -1,5 +1,5 @@
 {
-  "name": "expressjs-auth",
+  "name": "backnode",
   "version": "1.0.0",
   "description": "Expressjs authentication",
   "main": "app.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supuna97/expressjs-auth.git"
+    "url": "git+git@github.com:Brunoeising/auth-node.git"
   },
   "keywords": [
     "nodejs",
@@ -20,9 +20,8 @@
   "author": "Supun Nanayakkara",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/supuna97/expressjs-auth/issues"
+    "url": "git@github.com:Brunoeising/auth-node.git"
   },
-  "homepage": "https://github.com/supuna97/expressjs-auth#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
